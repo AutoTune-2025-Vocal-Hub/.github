@@ -7,7 +7,7 @@
 🎶 Elevate your vocal production with Auto-Tune 2025 VocalHub! This repository provides tutorials, resources, and best practices for music creators to enhance their audio projects in 2025.
 
 
-<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+<a href="https://cutt.ly/WrNt7Q2T" target="_blank">
   <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
 </a>
 
@@ -22,7 +22,7 @@
 - ✅ **Workflow Tips**: Recommendations for efficient audio production.  
 
 
-<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+<a href="https://cutt.ly/WrNt7Q2T" target="_blank">
   <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
 </a>
 
@@ -35,7 +35,7 @@
 - **DAW Compatibility**: Pro Tools, Logic Pro, FL Studio, Ableton Live  
 
 
-<a href="https://autotune-2025-vocal-hub.github.io/.github/" target="_blank">
+<a href="https://cutt.ly/WrNt7Q2T" target="_blank">
   <img src="https://img.shields.io/badge/Install_Guide-Now-9b6_%E2%86%92_3498db?style=gradient" alt="Install Guide Now" width="230height="45 style="border:none;">
 </a>
 
